@@ -1,0 +1,8 @@
+/* 路由统一动效 */
+.page-enter-active, .page-leave-active{
+  transition: opacity .5s;
+}
+
+.page-enter-active, .page-enter {
+  opacity: 0;
+}
